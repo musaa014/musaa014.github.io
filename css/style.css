@@ -1,5 +1,5 @@
 #welcome_section{
-    background-image: url(/images/Banner.jpg);
+    background-image: url(images\Banner.jpg);
     background-size: cover;
     color: lightblue;
     height: 4em;
@@ -20,5 +20,36 @@
 }
 
 .nav li{
+    margin: 0;
+}
+
+.nav li{
     display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    color: midnightblue;
+    background-color: seashell;
+    padding: 0.5em;
+}
+
+.nav a:hover{
+    background-color: aquamarine;
+}
+
+.utplassing-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about{
+    margin-top: 5em;
 }
