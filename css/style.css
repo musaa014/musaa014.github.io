@@ -1,3 +1,8 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #welcome_section{
     background-image: url(images\Banner.jpg);
     background-size: cover;
@@ -14,7 +19,9 @@
 }
 
 .nav{
+    background-color: seashell;
     position: fixed;
+    width: 100%;
     margin: 10px;
     border: 2px solid rgba(0, 0, 0, 1.0);
 }
@@ -30,7 +37,6 @@
 .nav a{
     display: inline-block;
     color: midnightblue;
-    background-color: seashell;
     padding: 0.5em;
 }
 
